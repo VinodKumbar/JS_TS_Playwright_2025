@@ -1,6 +1,14 @@
 // block of code to be executed
+
+// var global level variable
+var globalVariable = "I am a global variable"; // Global variable
+
+//let and const are block scoped variables
+let blockScopedVariable = "I am a block scoped variable"; // Block scoped variable
+
+
 function greet(name) {
-    console.log("Hello, " + name + "!");
+    console.log("Good morning, " + name + "!");
 }
 
 
