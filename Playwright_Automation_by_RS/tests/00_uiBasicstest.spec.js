@@ -82,7 +82,7 @@ test('Validate the Login page with Valid Creds', async ({page}) => {
 });
 
 
-test.only('Validate the UI controls', async ({browser}) => {   
+test('Validate the UI controls', async ({browser}) => {   
 
     const context = await browser.newContext();
     const page = await context.newPage();

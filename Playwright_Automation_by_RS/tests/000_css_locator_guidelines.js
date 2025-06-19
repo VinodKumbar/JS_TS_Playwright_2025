@@ -18,4 +18,18 @@ css -> parentTagName >> childTagName
 5. If needs to write the locator based on text
 text = ''
 
+Debug the test using Playwright Inspector
+npx playwright test tests/00_uiBasicstest.spec.js --debug
+
+
+Record and Playback 
+npx playwright codegen https://google.com
+
+Trace View Report
+npx playwright show-report C:\\Users\\VinodKumbar\\Playwright_Test_Automation\\Playwright_Automation_by_RS\\playwright-report
+
+
+Website Link
+trace.playwright.dev
+
 **/
