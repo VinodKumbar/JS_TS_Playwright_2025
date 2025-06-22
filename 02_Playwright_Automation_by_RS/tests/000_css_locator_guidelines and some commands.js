@@ -35,4 +35,7 @@ trace.playwright.dev
 UI Interface command
 npx playwright test --ui
 
+ExcelJS
+npm install exceljs
+
 **/

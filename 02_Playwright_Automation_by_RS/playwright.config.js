@@ -18,7 +18,7 @@ const config = ({
     headless: false, // Run tests in headful mode (visible browser)
     viewport: { width: 1280, height: 720 }, // Set the viewport size
     trace: 'retain-on-failure', // Collect trace when retrying the failed test // types of trace : 'on' , 'off', 'retain-on-failure'
-    screenshot: 'on', // Take screenshots only on test failure // types of screenshot : 'on' , 'off', 'retain-on-failure'
+    screenshot: 'only-on-failure', // Take screenshots only on test failure // types of screenshot : 'on' , 'off', 'retain-on-failure'
     video: 'retain-on-failure', // Record video only on test failure
 
 
